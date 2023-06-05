@@ -1,0 +1,284 @@
+# local resume example
+
+basics:
+  name: 云游君
+  label: 程序员
+  # avatar: https://yunyoujun.cn/images/avatar.jpg
+  bio: All at sea.
+
+contact:
+  email:
+    href: mailto:me@yunyoujun.cn
+    icon: ri:mail-line
+    label: me@yunyoujun.cn
+  phone:
+    href: tel:166xxxxxxxx
+    icon: ri:smartphone-line
+    label: 166 xxxx xxxx
+  blog:
+    href: https://www.yunyoujun.cn
+    icon: ri:earth-line
+    label: https://yunyoujun.cn
+  github:
+    href: https://github.com/YunYouJun
+    icon: ri:github-line
+    label: YunYouJun
+
+education:
+  icon: fa:graduation-cap
+  title: 教育背景
+  histories:
+    - school: 中国传媒大学
+      logo: /img/logo/cuc-logo.jpg
+      start: 2019 年 9 月
+      end: 2022 年 6 月
+      grade: 'GPA: 3.93，均分 92.3（专业第一）'
+      area: 计算机应用技术（数字娱乐与动画技术方向）
+      studyType: 硕士
+      city: 北京
+    - school: 上海海事大学
+      icon: 'ri:building-line'
+      start: 2014 年 9 月
+      end: 2018 年 6 月
+      grade: 'GPA: 3.33（专业前 10%）， CET-6'
+      area: 计算机科学与技术
+      studyType: 本科
+      city: 上海
+    - school: 上海理工大学
+      icon: 'ri:building-2-line'
+      start: 2015 年 9 月
+      end: 2017 年 6 月
+      grade: 'GPA: 3.93（专业第一）'
+      area: 动画
+      studyType: 跨校辅修
+      city: 上海
+
+project:
+  icon: ri:folders-line
+  title: 项目经历
+  sets:
+    - name: 蚂蚁集团 支付宝 体验技术部
+      logo: ri:alipay-line
+      type: 前端工程师
+      start: 2022 年 7 月
+      end: 至今
+      keywords:
+        - name: Tiny.js/Pixi.js
+          icon: i-ri:paint-brush-line
+        - name: React
+          icon: simple-icons:react
+        - name: Less
+          icon: simple-icons:less
+        - name: XCode
+          icon: simple-icons:xcode
+        - name: TypeScript，Zustand
+          icon: simple-icons:typescript
+        - name: RPC 等内部工具
+          icon: 🐜
+      summary: ToC, 🐤 蚂蚁庄园, 月DAU千万，互动应用（支付宝端内流量第二）
+      highlights:
+        - 蚂蚁庄园前端开发：开发五周年活动，从零到一开发做饭互动玩法，负责并保障庄园五福分会场及年夜饭活动上线，超出业务目标
+        - 蚂蚁庄园架构升级：将维护近六年的项目从原生开发迁移升级至内部 React 框架，并进行大幅的性能与结构优化
+        - 了解图形学基础，能够进行图形互动相关玩法、动画状态机与轻量 3D 交互场景实现，蚂蚁森林徽章、小鸡公仔 3D 模型展示等
+        - （实习 2021.7）🐜 🌲 蚂蚁森林神奇动物徽章旋转动画、蚂蚁新村部分模块开发、负责蚂蚁森林五周年活动页前端开发
+    - name: 腾讯 CSIG 智慧出行
+      logo: ri:qq-line
+      type: 实习，前端开发，汽车云大数据平台画像业务开发
+      start: 2021 年 5 月
+      end: 2021 年 7 月
+      open: false
+      summary: 独立进行腾讯云汽车大数据中后台及图表开发，React + Tea
+    - name: cook
+      repo: YunYouJun/cook
+      logo: mdi:pot-mix-outline
+      type: 隔离食用手册，开源项目
+      summary: 食材标签交互筛选，跳转 B 站做菜适配链接。用户量破百万，受人民网、人民日报、半月谈、解放日报等多家媒体采访转发。
+      start: 2022 年 4 月
+      end: 至今
+      url: 'https://cook.yunyoujun.cn'
+      keywords:
+        - name: TypeScript
+          icon: simple-icons:typescript
+        - name: Vue
+          icon: simple-icons:vuedotjs
+        - name: UnoCSS
+          icon: simple-icons:csswizardry
+    - name: air-conditioner
+      open: false
+      repo: YunYouJun/air-conditioner
+      type: 玩具，开源项目
+      logo: ri:snowy-line
+      start: 2019 年 8 月
+      end: 2021 年 1 月
+      url: https://www.yunyoujun.cn/air-conditioner/
+      summary: 云空调，便携小空调，为你的夏日带去清凉！用户访问量破千万。
+      keywords:
+        - name: React
+          icon: simple-icons:react
+        - name: Material UI
+          icon: simple-icons:material-ui
+        - name: SCSS
+          icon: simple-icons:sass
+        - name: CSS
+          icon: simple-icons:css3
+      highlights:
+        - 便携，静音，随时随地打开空调；操作简单，安装便捷；低功耗（使用纯 CSS 绘制）
+    - name: hexo-theme-yun
+      open: false
+      repo: YunYouJun/hexo-theme-yun
+      logo: ri:cloud-line
+      type: 博客主题，开源项目
+      start: 2019 年 5 月
+      end: 至今
+      url: 'https://yun.yunyoujun.cn'
+      summary: 一个简洁、优雅、快速的博客主题
+      keywords:
+        - name: Pug
+          icon: simple-icons:pug
+        - name: Stylus
+          icon: simple-icons:stylus
+        - name: Hexo
+          icon: simple-icons:hexo
+        - name: JavaScript
+          icon: simple-icons:javascript
+        - name: Yaml
+          icon: file-icons:yaml
+      highlights:
+        - 使用 pug 与 stylus 进行主题模版开发，熟练使用 CSS3 与 ES6 新特性实现自定义动画与样式
+        - 对 SEO、可访问性与加载速度进行优化，Chrome Lighthouse 测试 SEO/Accessibility/Best Practices 100，Performance 95。
+    - name: 其他
+      logo: ri:github-line
+      type: 业余开源项目
+      start: 2017 年 1 月
+      end: 至今
+      url: https://sponsors.yunyoujun.cn/projects
+      keywords:
+        - name: Vue
+          icon: simple-icons:vuedotjs
+        - name: React
+          icon: simple-icons:react
+        - name: Scss
+          icon: simple-icons:sass
+      highlights:
+        - 中国开源码力榜 Top 99，Element Plus 团队核心成员，为 Element, Vitesse 等 50 个开源项目积极贡献 PR。
+        - 个人开源项目 Valaxy（博客框架）、ADV.JS（文字冒险游戏引擎）等共计收获 10k Star。
+        - 在图形互动，细节优化，用户体验，兼容适配，项目工程化与大型开源项目协作方面有一定经验。
+
+skill:
+  icon: ri:flask-line
+  title: 技能经验
+  sets:
+    - title: 语言
+      keywords:
+        - name: ' '
+          icon: simple-icons:markdown
+        - name: ' '
+          icon: simple-icons:html5
+        - name: ' '
+          icon: simple-icons:css3
+        - name: ' '
+          icon: simple-icons:javascript
+        - name: 'TypeScript > '
+          icon: simple-icons:typescript
+        - name: 'scss == '
+          icon: simple-icons:sass
+        - name: 'stylus == '
+          icon: simple-icons:stylus
+        - name: Python，
+          icon: simple-icons:python
+        - name: ''
+          icon: simple-icons:php
+        - name: ''
+          icon: simple-icons:cplusplus
+    - title: 环境
+      keywords:
+        - name: 'macOS > '
+          icon: simple-icons:apple
+        - name: 'Windows > '
+          icon: simple-icons:windows
+        - name: 'Linux, '
+          icon: simple-icons:linux
+        - name: 'Node.js, '
+          icon: simple-icons:node-dot-js
+        - name: 'npm, '
+          icon: simple-icons:npm
+        - name: 'Nginx, '
+          icon: simple-icons:nginx
+        - name: 'Mysql, '
+          icon: simple-icons:mysql
+        - name: MongoDB
+          icon: simple-icons:mongodb
+    - title: 工具
+      keywords:
+        - name: 'Vue.js, '
+          icon: simple-icons:vue-dot-js
+        - name: 'Element, '
+          logo: https://ink.elpsy.cn/favicon.ico
+        - name: 'Vuetify, '
+          icon: simple-icons:vuetify
+        - name: 'Nuxt, '
+          icon: simple-icons:nuxt-dot-js
+        - name: 'NestJS, '
+          icon: simple-icons:nestjs
+        - name: ''
+          icon: simple-icons:bootstrap
+        - name: ''
+          icon: simple-icons:three-dot-js
+        - name: ', '
+          icon: simple-icons:d3-dot-js
+        - name: 'Gulp, '
+          icon: simple-icons:gulp
+        - icon: simple-icons:webpack
+        - name: Vite
+          icon: file-icons:vite
+    - title: 软件
+      keywords:
+        - name: 'Visual Studio Code, '
+          icon: simple-icons:visualstudiocode
+        - name: 'Cocos Creator, '
+          icon: simple-icons:cocos
+        - name: ''
+          icon: simple-icons:github
+        - name: '&'
+          icon: simple-icons:git
+        - name: 'Bash || '
+          icon: ri:terminal-box-line
+        - name: ''
+          icon: simple-icons:adobephotoshop
+        - name: ''
+          icon: simple-icons:adobepremiere
+        - name: ''
+          icon: simple-icons:adobeaftereffects
+
+certificate:
+  icon: ri:award-line
+  title: 奖项表彰
+  histories:
+    - name: 一等奖学金、毕业生三好学生
+      place: 中国传媒大学
+      time: 2019-2022
+    - name: 一等奖学金、校三好学生、优秀毕业生、优秀毕业设计（论文）
+      place: 上海海事大学
+      time: 2014-2018
+    - name: 第十届中国大学生计算机设计大赛二等奖、第七届 MathorCup 大学生数学建模挑战赛二等奖
+      time: 2017
+    - name: 第九届蓝桥杯上海赛区 C/C++ 组二等奖
+      place: 上海
+      time: 2018
+    - name: 'Color-Dust: A Data Visualization Application of Image Color Based on K-Means Algorithm 一作'
+      place: ICMLC (EI - IEEE)
+      time: 2020
+    - name: 腾讯犀牛鸟开源人才培养计划 Omi（1/14）结业
+      place: 线上
+      time: 2021
+
+other:
+  icon: ri:information-line
+  title: 其他
+  info:
+    - 爱好科幻，中国科普作协会员，曾获科普中国科普科幻青年之星、上海市幻想节科幻创作大赛一等奖
+    - 为人热心，曾前往甘肃武威支教，全国大学生百强暑期优秀实践团队
+    - 我对普通的 996 公司没有兴趣，假如你们当中有假期多，下班早，工资高，又有趣的公司，就尽管来找我吧，完毕！
+
+footer:
+  link: https://resume.elpsy.cn/local
